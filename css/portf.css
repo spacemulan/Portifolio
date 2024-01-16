@@ -1,0 +1,588 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.flex{
+    display: flex;
+}
+body {
+    background: rgb(13, 13, 44);
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px; 
+}
+
+header {
+    padding: 40px 4%;
+    width: 100%;
+    position: fixed;
+    background: rgb(13, 13, 44);
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header a {
+    color: rgba(255, 255, 255, 0.555);
+    text-decoration: none;
+    margin: 0 60px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+header a:hover {
+    color: white;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    padding: 0;
+    display: inline-block;
+}
+
+
+header .btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background: rgb(80, 80, 163);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover {
+    color: white;
+    transform: scale(1.05);
+}
+
+#logo {
+    color: white;
+   
+}
+
+/*estilo do topo*/
+section.topo-do-site{
+    padding: 100px 4%;
+ 
+}
+hr{
+    width: 98%;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    
+}
+p{
+    color: white;
+}
+h2{
+    color: white;
+    line-height: 60px;
+    font-size: 30px;
+}
+img{
+    height: 300px;
+    border-radius: 40px;
+    margin: 30px;
+
+}
+#porti{
+    height: 50px;
+    width: 720px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right,#500750, rgb(80, 80, 163));
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#porti:hover{
+    color: white;
+    transform: scale(1.05);
+}
+section.topo-do-site.flex{
+    align-items: center;
+    justify-content: center;
+    
+}
+.topo-do-site h1{
+    line-height: 58px;
+}
+#p1{
+    margin-top: 20px;
+}
+#p2{
+    margin-top: 9px;
+}
+#stack{
+    margin-top: 200px;
+    margin-left: 400px;
+    
+}
+.mysqL{
+    border: 2px solid #500750;
+    display: flex;
+    width: 30%;
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-right: 20px; 
+    flex-direction: column;
+    box-shadow: 3px 5px 5px rgba(21, 179, 231, 0.281);
+}
+.mysqL:hover{
+    transform: scale(1.05);
+}
+.htmls{
+    border: 2px solid #500750;
+    display: flex;
+    width: 30%;
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-right: 20px;
+    flex-direction: column; 
+    box-shadow: 3px 5px 5px rgba(255, 68, 0, 0.205);
+}
+.htmls:hover{
+    transform: scale(1.05);
+}
+.javas {
+    border: 2px solid #500750;
+    display: flex;
+    width: 30%;
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-right: 20px; 
+    flex-direction: column;
+    box-shadow: 3px 5px 5px rgba(255, 255, 0, 0.219);
+}
+.javas:hover{
+    transform: scale(1.05);
+}
+#sql{
+    height: 200px;
+    margin-left: 70px; 
+}
+
+
+#html{
+    height: 200px;
+    margin-left:60px; 
+}
+
+#javascript {
+    height: 200px;
+    margin-left: 20px;
+}
+
+#bio-icon {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 90px;
+}
+
+span{
+    color: #bd4dbd;
+}
+
+.photosh{
+    border: 2px solid #500750;
+    display: flex;
+    width: 30%;
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-right: 20px; 
+    flex-direction: column;
+    box-shadow: 3px 5px 5px #3C327B;
+}
+.photosh:hover{
+    transform: scale(1.05);
+}
+#photoshop{
+    height: 200px;
+    margin-left: 40px; 
+}
+#bio-icon2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.react{
+    border: 2px solid #500750;
+    display: flex;
+    width: 30%;
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-right: 20px; 
+    flex-direction: column;
+    box-shadow: 3px 5px 5px rgba(22, 194, 206, 0.438);
+}
+.react:hover{
+    transform: scale(1.05);
+}
+#reactjs{
+    height: 200px;
+    margin-left: 40px; 
+}
+.css{
+    border: 2px solid #500750;
+    display: flex;
+    width: 30%;
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-right: 20px; 
+    flex-direction: column;
+    box-shadow: 3px 5px 5px rgba(22, 117, 206, 0.438);
+}
+#css{
+    height: 200px;
+    margin-left: 40px; 
+}
+.css:hover{
+    transform: scale(1.05);
+}
+.githu{
+    border: 2px solid #500750;
+    display: flex;
+    width: 30%;
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-right: 20px; 
+    flex-direction: column;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.822);
+}
+#github{
+    height: 200px;
+    margin-left: 40px; 
+}
+.githu:hover{
+    transform: scale(1.05);
+}
+#bio-icon3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.git{
+    border: 2px solid #500750;
+    display: flex;
+    width: 30%;
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-right: 20px; 
+    flex-direction: column;
+    box-shadow: 3px 5px 5px rgba(255, 68, 0, 0.575);  
+}
+#git{
+    height: 200px;
+    margin-left: 40px; 
+}
+.git:hover{
+    transform: scale(1.05);
+}
+.illustrator{
+    border: 2px solid #500750;
+    display: flex;
+    width: 30%;
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-right: 20px; 
+    flex-direction: column;
+    box-shadow: 3px 5px 5px rgba(139, 0, 0, 0.616);  
+}
+#illustrator{
+    height: 200px;
+    margin-left: 40px; 
+}
+.illustrator:hover{
+    transform: scale(1.05);
+}
+.pmcanvas{
+    border: 2px solid #500750;
+    display: flex;
+    width: 30%;
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-right: 20px; 
+    flex-direction: column;
+    box-shadow: 3px 5px 5px rgb(100, 100, 100);   
+}
+#pmcanvas{
+    height: 200px;
+    margin-left: 40px; 
+}
+.pmcanvas:hover{
+    transform: scale(1.05);
+}
+#bio-icon4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.figma{
+    border: 2px solid #500750;
+    display: flex;
+    width: 30%;
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-right: 20px; 
+    flex-direction: column;
+    box-shadow: 3px 5px 5px rgba(132, 255, 204, 0.651);   
+}
+#figma{
+    height: 210px;
+    margin-left: 40px; 
+}
+.figma:hover{
+    transform: scale(1.05);
+}
+.btn-social{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    position: fixed;
+    margin-left:30px;
+}
+.githubs{
+    border: 2px solid #500750;
+    height: 70px;
+    width:80px;
+    margin-top: 10px;
+    border-radius: 20px;
+    }
+#githcontato{
+    height: 40px;  
+    margin-left:10px;
+    margin-top:15px
+}
+#linkedin{
+    height: 40px;  
+    margin-left:20px;
+    margin-top:15px
+}
+#whattsapp{
+    height: 40px;  
+    margin-left:20px;
+    margin-top:10px 
+}
+.linkedin{
+    border: 2px solid #500750;
+    height: 70px;
+    width:80px;
+    border-radius: 20px;
+}
+.whattsapp{
+    border: 2px solid #500750;
+    height: 70px;
+    width:80px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+.linkedin:hover{
+    transform: scale(1.05);
+}
+.githubs:hover{
+    transform: scale(1.05);
+}
+.whattsapp:hover{
+    transform: scale(1.05);
+}
+
+#foto-github{
+  
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 710px;
+}
+#apifilme{
+   
+    height: 100px;
+    width: 1100px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    border: 2px solid rgba(143, 216, 216, 0.719);
+    background: none;
+    cursor: pointer;
+}
+#apifilme h2{
+    margin-top: 20px;
+    margin-left: 5px;
+    align-items: center;
+    font-size: 26px;
+}
+
+#projetos-titulo{
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
+#apifilme:hover{
+    border: 2px solid rgba(128, 128, 128, 0.986);
+}
+#apifilme h2:hover{
+    color: rgba(255, 255, 255, 0.363);
+}
+
+#busca{
+   
+    height: 200px;
+    width: 1130px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgba(143, 216, 216, 0.719);
+    background: none;
+    cursor: pointer;
+}
+#busca h2{
+    margin-top: 20px;
+    
+    padding-left: 60px;
+    
+    font-size: 26px;
+}
+
+
+#busca:hover{
+    border: 2px solid rgba(128, 128, 128, 0.986);
+}
+#busca h2:hover{
+    color: rgba(255, 255, 255, 0.363);
+}
+
+
+
+.imagem-button{
+  
+    height: 8px;
+    
+}
+
+#foto-github2{
+    height: 80px;
+    margin-left: 500px;
+}
+#commit2{
+    font-size: 20px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    
+    
+}
+.projeto3{
+    margin-top: 40px;
+}
+
+#images-titulo{
+    margin-left: 400px;
+    
+}
+.portfolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #3c327b25;
+    
+}
+.img-port{
+    width: 360px;
+    height: 510px;
+    background: #bd4dbd;
+    background-size: cover;
+    background-position:50% 0%;
+    position: relative;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.portfolio .flex{
+    gap: 80px;
+    padding-top: 30px; 
+    margin-top: 60px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    background:rgba(80, 80, 163, 0.233);
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+.overlay:hover{
+    opacity:1;
+}
+.img-port:hover{
+    transform: scale(1.05);
+}
+.formulario{
+    padding: 8% 4%;
+    
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.377);
+    border: 0;
+    outline: none;
+    padding: 20px 15px;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+form textarea{
+    resize: none;
+    height: 200px;
+}
+.btn-enviar{
+    margin-top: 40px;
+    text-align: center;
+}
+.btn-enviar input{
+    width: 120px;
+    color: black;
+    background: #bd4dbd;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .0s;
+}
+button:hover, form .btn-enviar input:hover{
+    box-shadow:  0px 0px 8px #bd4dbd;
+    transform: scale(1.05);
+}
